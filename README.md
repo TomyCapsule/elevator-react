@@ -7,3 +7,9 @@
 3. npm start in root
 4. npm start in reactapp
 
+## In progress
+
+1. Manage multiple button presses
+2. Refactoring
+3. TDDs
+4. Styling
