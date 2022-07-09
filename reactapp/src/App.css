@@ -1,0 +1,42 @@
+.elevator div{
+  position: relative;
+  overflow: hidden;
+}
+.elevator div:before{
+  position: absolute;
+  left:0;
+  content:' ';
+  background:#a3a3a3;
+  width:55%;
+  height:24px;
+  display: block; 
+  transition: 0.5s ease-in-out;
+  z-index:1;
+  bottom:0;
+}
+.elevator div:after{
+  position: absolute;
+  right:0;
+  content:' ';
+  background:#a3a3a3;
+  width:55%;
+  height:24px;
+  display: block;
+  transition: 0.5s ease-in-out;
+  z-index:1;
+  bottom:0;
+}
+.elevator div.open:before{
+  left:-50%;
+}
+.elevator div.open:after{
+  right:-50%;
+}
+
+.filter-green{
+  filter: invert(50%) sepia(17%) saturate(4875%) hue-rotate(135deg) brightness(95%) contrast(103%);
+}
+
+.filter-red{
+  filter: invert(58%) sepia(61%) saturate(1194%) hue-rotate(323deg) brightness(91%) contrast(92%);
+}
