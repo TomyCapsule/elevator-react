@@ -46,7 +46,7 @@ export default function Dashboard(){
 
     if(isLogin){
         return(
-            <div className="h-screen w-full flex flex-col items-center justify-center overflow-scroll">
+            <div className="w-full flex flex-col items-center justify-center overflow-scroll" style={{height:"50vh"}}>
                 {elevatorActions.map((elt,i)=>{
                     return <p key={i}>Action: {elt.actionType} / to Floor: {elt.floor}</p>
                 })}
