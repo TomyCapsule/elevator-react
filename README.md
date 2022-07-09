@@ -7,7 +7,7 @@
 3. npm start in root
 4. npm start in reactapp
 
-## Things to do
+## In progress
 
 1. Manage multiple button presses
 2. Refactoring
