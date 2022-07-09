@@ -1,11 +1,12 @@
 var mongoose = require('mongoose');
+let MONGODB_CONNECTION = process.env.MONGODB_CONNECTION;
 
 var options = {
     connectTimeoutMS: 5000,
     useNewUrlParser: true,
     useUnifiedTopology : true
    }
-   mongoose.connect('mongodb+srv://ElevatorTester:428jt7MP9475Tkj@cluster0.lncbvjq.mongodb.net/elevator?retryWrites=true&w=majority', options,        
+   mongoose.connect(MONGODB_CONNECTION, options,        
     function(err) {
         if(err){
             console.log(err);
