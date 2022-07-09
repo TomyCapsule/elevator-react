@@ -1,4 +1,6 @@
-# Instructions
+# Elevator in react (in progress)
+
+## Instructions
 
 1. Clone the repo
 2. Install depedencies in both server (root) & client (reactapp) sides
