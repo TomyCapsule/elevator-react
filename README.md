@@ -1,4 +1,4 @@
-# Elevator in react (in progress)
+# Elevator in react 
 
 ## Instructions
 
